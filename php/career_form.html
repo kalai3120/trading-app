@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Form</title>
+</head>
+<body>
+  <h2>Submit Your Career Information</h2>
+  <form action="submit_career.php" method="post" enctype="multipart/form-data">
+    <label for="full_name">Full Name:</label><br>
+    <input type="text" id="full_name" name="full_name" required><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="mobile">Mobile:</label><br>
+    <input type="text" id="mobile" name="mobile" required><br><br>
+    <label for="resume">Resume (PDF or Word document):</label><br>
+    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
